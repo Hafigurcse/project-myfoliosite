@@ -1,0 +1,442 @@
+/*
+	MY FOLIO PSD TO HTML PROJECT
+*/
+* {
+	padding: 0;
+	margin: 0;
+	outline: 0;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #7e8287;
+	max-width: 1920px;
+	margin: 0 auto;
+}
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+/**************************
+HEADER AREA DESIGN START HERE
+***************************/
+.header-area {
+	background-image: url('img/header1.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 30px 0px;
+	box-sizing: border-box;
+}
+.logo-menu {
+	overflow: hidden;
+}
+.logo {
+	float: left;
+}
+.menu {
+	float: right;
+}
+.menu ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+
+}
+.menu ul li {
+	display: inline-block;
+	margin-left: 30px;
+	
+}
+.menu ul li a{
+	font-size: 16px;
+	font-weight: 800;
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	transition: .4s;
+
+}
+.menu ul li:hover a {
+	color: #cfc91d;
+}
+/**************************
+HEADER AREA DESIGN END HERE
+***************************/
+
+/**************************
+SLIDER AREA DESIGN START HERE
+***************************/
+
+.slider-area::after {
+	content: "";
+	top: 0;
+	left: 0;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: #000;
+	opacity: .60;
+}
+.slider-area {
+	background-image: url('img/slider-bg.jpg');
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	overflow: hidden;
+	position: relative;
+	height: 720px;
+	width: 100%;
+	display: table;
+	position: relative;
+}
+.slider-text {
+	text-align: center;
+	color: #fff;
+	position: relative;
+	z-index: 999;
+
+}
+.slider-area-table {
+	height: 720px;
+	width: 100%;
+	display: table;
+}
+.slider-area-table-cell {
+	display: table-cell;
+	vertical-align: middle;
+
+}
+.slider-text h3 {
+	font-size: 30px;
+	font-weight: 400;
+	color: #fff;
+}
+.slider-text h2 {
+	font-size: 68px;
+	font-weight: 800;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 20px;
+}
+.slider-text h4 {
+	font-size: 18px;
+	font-weight: 400;
+	margin-top: 8px;
+}
+a.know::before{
+	content: "}";
+	position: absolute;
+	color: #fff;
+	left: 50%;
+	top: -115px;
+	font-size: 100px;
+	transform: rotate(90deg);
+	font-weight: 200;
+	margin-left: -8px;
+}
+a.know:hover {
+	background-color: #06427D;
+	background: transparent;
+	color: #cfc91d;
+}
+a.know {
+	color: #0b1016;
+	font-size: 16px;
+	font-weight: 400;
+	background-color: #cfc91d;
+	border: 2px solid #cfc91d;
+	text-decoration: none;
+	margin-top: 100px;
+	padding: 10px 19px;
+	display: inline-block;
+	position: relative;
+	letter-spacing: 2px;
+	transform: .5s;
+
+}
+/**************************
+SLIDER AREA DESIGN END HERE
+***************************/
+
+/**************************
+ABOUT AREA DESIGN END HERE
+***************************/
+.about-me-area {
+	padding: 70px 0px;
+}
+.section-title {
+	text-align: center;
+	
+}
+.section-title h3::after {
+	content: "";
+	left: 50%;
+	bottom: 0;
+	position: absolute;
+	background-image: url('img/section-title-bottom.jpg');
+	background-repeat: no-repeat;
+	background-position: bottom;
+	width: 180px;
+	margin-left: -80px;
+	height: 10px;
+	margin-bottom: -9px;
+}
+.section-title h3 {
+	color: #02918c;
+	font-size: 46px;
+	font-weight: 800;
+	position: relative;
+	padding-bottom: 15px;
+}
+.section-title p {
+	color: #7e8287;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 40px;
+	max-width: 800px;
+	margin: 0 auto;
+	margin-top: 25px;
+}
+span {
+	color: #7e8287;
+	font-size: 23px;
+	font-weight: 800;
+}
+.about-me-list {
+	overflow: hidden;
+	margin-top: 70px;
+}
+.single-about-me:last-child {
+	border-right: none;
+}
+.single-about-me {
+	box-sizing: border-box;
+	float: left;
+	width: 272px;
+	border-right: 1px solid #ddd;
+	text-align: center;
+	padding: 45px 20px;
+	
+}
+.single-about-me i{
+	color: #02918c;
+	font-size: 23px;
+}
+.single-about-me h3 {
+	color: #7e8287;
+	font-size: 16px;
+	font-weight: 800;
+	margin-top: 15px;
+}
+.single-about-me p{
+	color: #7e8287;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 20px;
+	margin-top: 15px;
+}
+
+/**************************
+SERVICE AREA DESIGN START HERE
+***************************/
+
+.service-area {
+	background-color: #f0f0e8;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	position: relative;
+}
+.service-area::after{
+	content: "";
+	right: 0;
+	top: 0;
+	position: absolute;
+	height: 100%;
+	width: 50%;
+	background: url('img/service-right.jpg') no-repeat scroll center center/cover;
+	opacity: .40;
+}
+.left-service {
+	width: 50%;
+}
+.left-service .section-title {
+	text-align: left; 
+}
+.service-area .section-title h3::after {
+	left: 0;
+	margin-left: 0;
+
+}
+.service-list {
+	overflow: hidden;
+	margin-top: 35px;
+}
+.single-list {
+    float: left;
+    width: 46%;
+    margin-bottom: 50px;
+    margin-left: 11px;
+}
+.single-list i {
+	font-size: 35px;
+	color: #0c938e;
+}
+.single-list h3 {
+	font-size: 16px;
+	font-weight: 800;
+	color: #7e8287;
+	margin-top: 15px;
+}
+.single-list p {
+	font-size: 13px;
+	color: #7e8287;
+	font-weight: 400;
+	margin-top: 15px;
+	line-height: 22px;
+}
+/**************************
+SERVICE AREA DESIGN END HERE
+***************************/
+
+/**************************
+PORTFOLIO AREA DESIGN START HERE
+***************************/
+
+.portfolio-area {
+	margin-top: 60px;
+}
+.portfolio-area .section-title {
+	max-width: 700px;
+	margin: 0 auto;
+}
+.portfolio-list {
+	overflow: hidden;
+	margin-top: 60px;
+}
+.single-portfolio {
+	float: right;
+	width: 25%;
+	position: relative;
+}
+.single-portfolio img {
+	width: 100%;
+}
+.single-portfolio:hover .overlay {
+	opacity: 1;
+}
+.overlay {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	background-color: #27a19dcf;
+	color: #fff;
+	width: calc(100% - 60px);
+	height: calc(100% - 60px);
+	opacity: 0;
+	transition: .4s;
+}
+.overlay-text {
+	text-align: center;
+	margin-top: 20px;
+	padding: 15px;
+}
+.overlay-text h3 {
+	font-size: 16px;
+	font-weight: 800;
+	color: #fff;
+}
+.overlay-text p {
+	font-size: 13px;
+	font-weight: 400;
+	color: #fff;
+	line-height: 15px;
+	margin-top: 10px;
+	display: block;
+}
+
+/**************************
+CONTACT AREA DESIGN START HERE
+***************************/
+
+.contact-area {
+	padding-top: 100px;
+	padding-bottom: 90px;
+	position: relative;
+}
+.contact-area::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 60%;
+	background-color: #0b0b0b;
+	z-index: -1;
+}
+.contact-form {
+	margin-top: 60px;
+}
+.contact-form input {
+	width: 60%;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	height: 40px;
+	text-align: center;
+	padding: 12px 0px;
+	margin: 0 auto;
+	display: block;
+	font-size: 16px;
+	font-weight: 400;
+	color: #7e8287;
+	background: transparent;
+}
+.contact-form textarea {
+	width: 80%;
+	height: 80px;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	font-size: 17px;
+	color: #7e8287;
+	font-weight: 400;
+	text-align: center;
+	padding: 14px 0px;
+	margin: 0 auto;
+	display: block;
+	resize: none;
+	background: transparent;
+}
+.contact-form button {
+	border: none;
+	color: #000;
+	font-size: 16;
+	font-weight: 800;
+	padding: 13px 30px;
+	margin: 0 auto;
+	display: block;
+	margin-top: 60px;
+	background-color: #cfc91d;
+	letter-spacing: 3px;
+}
+/**************************
+CONTACT AREA DESIGN END HERE
+***************************/
+
+/**************************
+FOOTER AREA DESIGN START HERE
+***************************/
+
+.footer-text {
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+	text-align: center;
+	background-image: url('img/header1.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 20px 0px;
+
+}
